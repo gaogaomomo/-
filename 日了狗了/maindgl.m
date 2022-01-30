@@ -1,0 +1,14 @@
+start=[2;1];
+mu=10;
+a=0;
+b=50;
+N1=200000;
+N2=2500;
+N3=10000;
+N4=50000;
+N5=100000;
+[y1] = ExplEuler(a,b,N1,start,mu);
+[y2] = ExplEuler(a,b,N2,start,mu);
+[y3] = ExplEuler(a,b,N3,start,mu);
+[y4] = ExplEuler(a,b,N4,start,mu);
+[y5] = ExplEuler(a,b,N5,start,mu);
