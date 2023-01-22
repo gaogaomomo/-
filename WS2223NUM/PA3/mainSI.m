@@ -1,0 +1,10 @@
+x=1.5;
+xv=[0,1,2,3];
+yv=[-4,9,35,70];
+v0=10;
+vn=40;
+n=3;
+A = MatrixAufstellen(n);
+b = rechteSeite(xv,yv,v0,vn);
+vv=gaussElim(A,b);
+i = SplineAuswerten(x,xv,yv,vv);
